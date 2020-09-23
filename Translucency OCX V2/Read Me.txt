@@ -1,0 +1,45 @@
+Translucency OCX - V2
+
+Guys as i promised, here am back with the resizeable and moveable version of Translucency... a Novel method to implement translucency to your VB Forms, with just a single line of code !!!!! This time, i've taken special attention to make the code readable. The code is well intended, heavily commented and is informative for those who wishes to start with subclassing. From my personal experience, i started off with this piece of code , just a couple of days ago, when i was listening to the roars and cries of hundreds to make the TranslucencyOCX resizeable and moveable. Well, the cries and roars are answered with this 54KB upload.
+
+credits
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Unknown Author for the idea of BitBlt-ing the portion of the screen to the form.
+MSDN for the Subclassing tutorials.
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+==========================================================================================
+The code included with this pack is written by Praveen Menon.
+The rights for the translucency OCX goes entirely to Praveen Menon.
+==========================================================================================
+If someone want to use the control in their project and needs to distribute the complied version of the OCX along with the application, please do it with pleasure. But if you plan to reproduce or distribute the source code as such or any part of it, modified or original, please contact the author. He can be reached at praveenmenon_in@yahoo.com
+==========================================================================================
+lastly, Please refrain from boasting that the code is yours'
+==========================================================================================
+
+New features
+
+1) The Subclassed property, which allows the form to be resized and moved, keeping the translucency intact.
+2) The BlendPicture Property, with which you can blend a picture to the screen.
+
+Usage
+1) Add the usercontrol and the module to y'r project.
+2) Place an Instance of the usercontrol in the Parent Form.
+3) The Control is Named Translucency1 by default.
+4) call translucency1.drawTranclucency in Forms' Load event.
+5) Run. (Not from your chair...)
+
+Properties
+1) The control Supports a BlendColor Property, which is the color tint added to the ScreenShot.
+2) The control supports its usage without having to subclass the windows messages. Since subclassing is always dangerous, the Subclassed property should be set to true inorder for the control to trap the resizing and moving messages.
+
+guys, pls report the bugs...
+i guess i need feedback to do more work...
+
+if the source gave u some spark of ideas or taught you new things, i consider the work was not futile...
+also if u think this ain't that bad for a beginner, and this is a novel idea to implement translucence, pls vote...
+
+thanks and luv,
+Praveen
+
+praveenmenon_in@yahoo.com
